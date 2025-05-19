@@ -1,2 +1,5 @@
 def function1():
     print('Function 1 in module 1')
+
+    import module1
+module1.function1() 
